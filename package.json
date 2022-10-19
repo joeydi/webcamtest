@@ -9,10 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@supabase/auth-helpers-nextjs": "^0.4.1",
+    "@supabase/auth-helpers-react": "^0.3.0",
+    "@supabase/auth-ui-react": "^0.2.2",
+    "@supabase/supabase-js": "^2.0.1",
+    "bootstrap": "^5.2.2",
     "cloudinary": "^1.32.0",
     "next": "12.3.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "sass": "^1.55.0"
   },
   "devDependencies": {
     "eslint": "8.25.0",
