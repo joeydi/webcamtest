@@ -20,7 +20,8 @@ body {
 }
 
 img,
-video {
+video,
+canvas {
     display: block;
     width: 100%;
     height: auto;
@@ -32,18 +33,16 @@ canvas {
     overflow: hidden;
 }
 
-.webcam {
-}
-
 .controls {
-    display: flex;
-}
+    width: 80%;
+    margin: 0 auto;
 
-.controls canvas {
-    width: 40%;
-    margin-right: 20px;
-    background: #222;
-    border: 1px solid #333;
+    canvas {
+        width: 50%;
+        margin: 0 auto 1rem;
+        background: #222;
+        border: 1px solid #333;
+    }
 }
 
 .recent-images {

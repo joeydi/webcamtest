@@ -50,17 +50,15 @@ export default function Webcam() {
                 <div className="col-md-6">
                     <div className="webcam">
                         <video className="mb-4" ref={videoRef} width="640" height="480" />
-                        <div className="controls d-flex">
+                        <div className="controls">
                             <canvas ref={canvasRef} width="640" height="480"></canvas>
-                            <div>
-                                <button className="btn btn-primary mb-4" onClick={takePicture}>
+                            <div className="d-flex align-items-center justify-content-center">
+                                <button className="btn btn-primary mx-2 mb-4" onClick={takePicture}>
                                     Take Picture
                                 </button>
-                                <br />
-                                <button className="btn btn-secondary mb-4" onClick={uploadPicture}>
+                                <button className="btn btn-secondary mx-2 mb-4" onClick={uploadPicture}>
                                     Upload Picture
                                 </button>
-                                <br />
                             </div>
                         </div>
                     </div>
